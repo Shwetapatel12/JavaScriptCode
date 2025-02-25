@@ -221,7 +221,18 @@ let s = 5;
 // let cond2 = r === 6; // true
 // console.log("cond1 && cond2 = ", cond1 && cond2);
 
-let cond1 = r > s; //true
-let cond2 = r === 5; // false
-console.log("cond1 && cond2 = ", cond1 && cond2);
+// let cond1 = r > s; //true
+// let cond2 = r === 5; // false
+// console.log("cond1 && cond2 = ", cond1 && cond2);
+// console.log("cond1 && cond2 = ", r < s && s == 6);
+
+// console.log("cond1 && cond2 = ", r < s || s == 6);   //false
+// console.log("cond1 && cond2 = ", r > s || s == 3);  // true
+// console.log("cond1 && cond2 = ", r != s || s == 9); //true
+
+console.log("!(6<5) = ", !(r < s));  // true
+console.log("!(6<5) = ", !(r === 6));  // false
+
+// -------------------------------------------------------------------------------------------------
+
 
